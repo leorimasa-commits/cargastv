@@ -95,7 +95,8 @@ html,body{width:100%;height:100%;background:#070c18;color:#e2e8f0;font-family:'I
 </div>
 
 <script>
-const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSboYd84ArnGhLxO1XMQalDF5T3NbkngcQFD4cNe-spfV9G-qJ5dOXp28t2ivVcgttsJOarnRnxmg5U/pub?gid=1157339999&single=true&output=csv';
+const SHEET_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSboYd84ArnGhLxO1XMQalDF5T3NbkngcQFD4cNe-spfV9G-qJ5dOXp28t2ivVcgttsJOarnRnxmg5U/pub?gid=0&single=true&output=csv';
+const CSV_URL = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(SHEET_CSV);
 const REFRESH_MS = 60000;
 const AUTO_DAY_MS = 25000;
 
